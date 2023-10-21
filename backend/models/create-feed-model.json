@@ -1,0 +1,15 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "group",
+  "type": "object",
+  "properties": {
+    "content": {
+      "type": "string",
+      "minLength": 5
+    }
+  },
+  "required": [
+    "content"
+  ],
+  "additionalProperties": false
+}
